@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  gap: 20px;
+}
+textarea {
+  width: 45%;
+  height: 300px;
+  padding: 10px;
+  font-family: monospace;
+}
+.preview {
+  width: 45%;
+  height: 300px;
+  overflow: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
